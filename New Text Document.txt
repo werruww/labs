@@ -1,0 +1,1138 @@
+
+الحمد لله
+اشتغلت
+راج
+جيد جدا 
+Codespaces
+cpu
+https://github.com/codersbranch/labs/tree/main
+
+
+
+@werruww ➜ /workspaces/labs (main) $ ollama list
+NAME                ID              SIZE      MODIFIED           
+deepseek-r1:1.5b    a42b25d8c10a    1.1 GB    About a minute ago    
+
+
+
+
+ pip install streamlit pypdf langchain sentence-transformers faiss-cpu ollama
+
+   streamlit run app.py
+
+
+
+
+
+
+@werruww ➜ /workspaces/labs (main) $ pip list
+Package                   Version
+------------------------- --------------
+aiohappyeyeballs          2.6.1
+aiohttp                   3.11.16
+aiosignal                 1.3.2
+altair                    5.5.0
+annotated-types           0.7.0
+anyio                     4.9.0
+argon2-cffi               23.1.0
+argon2-cffi-bindings      21.2.0
+arrow                     1.3.0
+asttokens                 3.0.0
+async-lru                 2.0.5
+attrs                     25.3.0
+babel                     2.17.0
+beautifulsoup4            4.13.3
+bleach                    6.2.0
+blinker                   1.9.0
+cachetools                5.5.2
+certifi                   2025.1.31
+cffi                      1.17.1
+charset-normalizer        3.4.1
+click                     8.1.8
+colorama                  0.4.6
+comm                      0.2.2
+contourpy                 1.3.1
+cycler                    0.12.1
+dataclasses-json          0.6.7
+debugpy                   1.8.13
+decorator                 5.2.1
+defusedxml                0.7.1
+executing                 2.2.0
+faiss-cpu                 1.10.0
+fastjsonschema            2.21.1
+filelock                  3.13.1
+fonttools                 4.56.0
+fqdn                      1.5.1
+frozenlist                1.5.0
+fsspec                    2024.6.1
+gitdb                     4.0.12
+GitPython                 3.1.44
+greenlet                  3.1.1
+h11                       0.14.0
+httpcore                  1.0.7
+httpx                     0.28.1
+httpx-sse                 0.4.0
+huggingface-hub           0.30.2
+idna                      3.10
+ipykernel                 6.29.5
+ipython                   9.0.2
+ipython_pygments_lexers   1.1.1
+isoduration               20.11.0
+jedi                      0.19.2
+Jinja2                    3.1.6
+joblib                    1.4.2
+json5                     0.10.0
+jsonpatch                 1.33
+jsonpointer               3.0.0
+jsonschema                4.23.0
+jsonschema-specifications 2024.10.1
+jupyter_client            8.6.3
+jupyter_core              5.7.2
+jupyter-events            0.12.0
+jupyter-lsp               2.2.5
+jupyter_server            2.15.0
+jupyter-server-mathjax    0.2.6
+jupyter_server_terminals  0.5.3
+jupyterlab                4.3.6
+jupyterlab_git            0.51.0
+jupyterlab_pygments       0.3.0
+jupyterlab_server         2.27.3
+kiwisolver                1.4.8
+langchain                 0.3.23
+langchain-community       0.3.21
+langchain-core            0.3.51
+langchain-text-splitters  0.3.8
+langsmith                 0.3.30
+MarkupSafe                3.0.2
+marshmallow               3.26.1
+matplotlib                3.10.1
+matplotlib-inline         0.1.7
+mistune                   3.1.2
+mpmath                    1.3.0
+multidict                 6.4.3
+mypy-extensions           1.0.0
+narwhals                  1.31.0
+nbclient                  0.10.2
+nbconvert                 7.16.6
+nbdime                    4.0.2
+nbformat                  5.10.4
+nest-asyncio              1.6.0
+networkx                  3.3
+notebook_shim             0.2.4
+numpy                     2.2.4
+ollama                    0.4.7
+orjson                    3.10.16
+overrides                 7.7.0
+packaging                 24.2
+pandas                    2.2.3
+pandocfilters             1.5.1
+parso                     0.8.4
+pexpect                   4.9.0
+pillow                    11.1.0
+pip                       25.0.1
+platformdirs              4.3.6
+plotly                    6.0.1
+prometheus_client         0.21.1
+prompt_toolkit            3.0.50
+propcache                 0.3.1
+protobuf                  5.29.4
+psutil                    7.0.0
+ptyprocess                0.7.0
+pure_eval                 0.2.3
+pyarrow                   19.0.1
+pycparser                 2.22
+pydantic                  2.11.3
+pydantic_core             2.33.1
+pydantic-settings         2.8.1
+pydeck                    0.9.1
+Pygments                  2.19.1
+pyparsing                 3.2.1
+pypdf                     5.4.0
+python-dateutil           2.9.0.post0
+python-dotenv             1.1.0
+python-json-logger        3.3.0
+pytz                      2025.1
+PyYAML                    6.0.2
+pyzmq                     26.3.0
+referencing               0.36.2
+regex                     2024.11.6
+requests                  2.32.3
+requests-toolbelt         1.0.0
+rfc3339-validator         0.1.4
+rfc3986-validator         0.1.1
+rpds-py                   0.23.1
+safetensors               0.5.3
+scikit-learn              1.6.1
+scipy                     1.15.2
+seaborn                   0.13.2
+Send2Trash                1.8.3
+sentence-transformers     4.0.2
+setuptools                76.0.0
+six                       1.17.0
+smmap                     5.0.2
+sniffio                   1.3.1
+soupsieve                 2.6
+SQLAlchemy                2.0.40
+stack-data                0.6.3
+streamlit                 1.44.1
+sympy                     1.13.1
+tenacity                  9.1.2
+terminado                 0.18.1
+threadpoolctl             3.6.0
+tinycss2                  1.4.0
+tokenizers                0.21.1
+toml                      0.10.2
+torch                     2.6.0+cpu
+tornado                   6.4.2
+tqdm                      4.67.1
+traitlets                 5.14.3
+transformers              4.51.2
+types-python-dateutil     2.9.0.20241206
+typing_extensions         4.12.2
+typing-inspect            0.9.0
+typing-inspection         0.4.0
+tzdata                    2025.1
+uri-template              1.3.0
+urllib3                   2.3.0
+watchdog                  6.0.0
+wcwidth                   0.2.13
+webcolors                 24.11.1
+webencodings              0.5.1
+websocket-client          1.8.0
+yarl                      1.19.0
+zstandard                 0.23.0
+@werruww ➜ /workspaces/labs (main) $ 
+
+
+
+/home/codespace/.python/current/bin/python /workspaces/labs/ragchatbot/app.py
+@werruww ➜ /workspaces/labs (main) $ /home/codespace/.python/current/bin/python /workspaces/labs/ragchatbot/app.py
+Traceback (most recent call last):
+  File "/workspaces/labs/ragchatbot/app.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+@werruww ➜ /workspaces/labs (main) $ pip install streamlit
+Collecting streamlit
+  Downloading streamlit-1.44.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting altair<6,>=4.0 (from streamlit)
+  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.0.0 (from streamlit)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<6,>=4.0 (from streamlit)
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting click<9,>=7.0 (from streamlit)
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: numpy<3,>=1.23 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (2.2.4)
+Requirement already satisfied: packaging<25,>=20 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (11.1.0)
+Collecting protobuf<6,>=3.20 (from streamlit)
+  Downloading protobuf-5.29.4-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting pyarrow>=7.0 (from streamlit)
+  Downloading pyarrow-19.0.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Requirement already satisfied: requests<3,>=2.27 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (2.32.3)
+Requirement already satisfied: tenacity<10,>=8.1.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from streamlit) (9.1.2)
+Collecting toml<2,>=0.10.1 (from streamlit)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (4.12.2)
+Collecting watchdog<7,>=2.1.5 (from streamlit)
+  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (3.1.44)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit)
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: tornado<7,>=6.0.3 in /home/codespace/.local/lib/python3.12/site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in /home/codespace/.local/lib/python3.12/site-packages (from altair<6,>=4.0->streamlit) (3.1.6)
+Requirement already satisfied: jsonschema>=3.0 in /home/codespace/.local/lib/python3.12/site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in /home/codespace/.local/lib/python3.12/site-packages (from altair<6,>=4.0->streamlit) (1.31.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /home/codespace/.local/lib/python3.12/site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/codespace/.local/lib/python3.12/site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/codespace/.local/lib/python3.12/site-packages (from pandas<3,>=1.4.0->streamlit) (2025.1)
+Requirement already satisfied: tzdata>=2022.7 in /home/codespace/.local/lib/python3.12/site-packages (from pandas<3,>=1.4.0->streamlit) (2025.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2.27->streamlit) (2025.1.31)
+Requirement already satisfied: smmap<6,>=3.0.1 in /home/codespace/.local/lib/python3.12/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/codespace/.local/lib/python3.12/site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in /home/codespace/.local/lib/python3.12/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/codespace/.local/lib/python3.12/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2024.10.1)
+Requirement already satisfied: referencing>=0.28.4 in /home/codespace/.local/lib/python3.12/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in /home/codespace/.local/lib/python3.12/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.23.1)
+Requirement already satisfied: six>=1.5 in /home/codespace/.local/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+Downloading streamlit-1.44.1-py3-none-any.whl (9.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.8/9.8 MB 79.0 MB/s eta 0:00:00
+Downloading altair-5.5.0-py3-none-any.whl (731 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.2/731.2 kB 42.5 MB/s eta 0:00:00
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cachetools-5.5.2-py3-none-any.whl (10 kB)
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+Downloading protobuf-5.29.4-cp38-abi3-manylinux2014_x86_64.whl (319 kB)
+Downloading pyarrow-19.0.1-cp312-cp312-manylinux_2_28_x86_64.whl (42.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 92.3 MB/s eta 0:00:00
+Downloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 86.7 MB/s eta 0:00:00
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Installing collected packages: watchdog, toml, pyarrow, protobuf, click, cachetools, blinker, pydeck, altair, streamlit
+Successfully installed altair-5.5.0 blinker-1.9.0 cachetools-5.5.2 click-8.1.8 protobuf-5.29.4 pyarrow-19.0.1 pydeck-0.9.1 streamlit-1.44.1 toml-0.10.2 watchdog-6.0.0
+@werruww ➜ /workspaces/labs (main) $ /home/codespace/.python/current/bin/python /workspaces/labs/ragchatbot/app.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/langchain/_api/module_import.py", line 69, in import_by_name
+    module = importlib.import_module(new_module)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'langchain_community'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/labs/ragchatbot/app.py", line 6, in <module>
+    from langchain.document_loaders import PyPDFLoader
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/langchain/document_loaders/__init__.py", line 379, in __getattr__
+    return _import_attribute(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/langchain/_api/module_import.py", line 72, in import_by_name
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Module langchain_community.document_loaders not found. Please install langchain-community to access this module. You can install it using `pip install -U langchain-community`
+@werruww ➜ /workspaces/labs (main) $ pip install -U langchain-community
+Collecting langchain-community
+  Downloading langchain_community-0.3.21-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: langchain-core<1.0.0,>=0.3.51 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-community) (0.3.51)
+Requirement already satisfied: langchain<1.0.0,>=0.3.23 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-community) (0.3.23)
+Requirement already satisfied: SQLAlchemy<3,>=1.4 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-community) (2.0.40)
+Requirement already satisfied: requests<3,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from langchain-community) (2.32.3)
+Requirement already satisfied: PyYAML>=5.3 in /home/codespace/.local/lib/python3.12/site-packages (from langchain-community) (6.0.2)
+Collecting aiohttp<4.0.0,>=3.8.3 (from langchain-community)
+  Downloading aiohttp-3.11.16-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+Requirement already satisfied: tenacity!=8.4.0,<10,>=8.1.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-community) (9.1.2)
+Collecting dataclasses-json<0.7,>=0.5.7 (from langchain-community)
+  Downloading dataclasses_json-0.6.7-py3-none-any.whl.metadata (25 kB)
+Collecting pydantic-settings<3.0.0,>=2.4.0 (from langchain-community)
+  Downloading pydantic_settings-2.8.1-py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: langsmith<0.4,>=0.1.125 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-community) (0.3.30)
+Collecting httpx-sse<1.0.0,>=0.4.0 (from langchain-community)
+  Downloading httpx_sse-0.4.0-py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: numpy<3,>=1.26.2 in /home/codespace/.local/lib/python3.12/site-packages (from langchain-community) (2.2.4)
+Collecting aiohappyeyeballs>=2.3.0 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+Requirement already satisfied: attrs>=17.3.0 in /home/codespace/.local/lib/python3.12/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (25.3.0)
+Collecting frozenlist>=1.1.1 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading frozenlist-1.5.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading multidict-6.4.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+Collecting propcache>=0.2.0 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading propcache-0.3.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp<4.0.0,>=3.8.3->langchain-community)
+  Downloading yarl-1.19.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (71 kB)
+Collecting marshmallow<4.0.0,>=3.18.0 (from dataclasses-json<0.7,>=0.5.7->langchain-community)
+  Downloading marshmallow-3.26.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting typing-inspect<1,>=0.4.0 (from dataclasses-json<0.7,>=0.5.7->langchain-community)
+  Downloading typing_inspect-0.9.0-py3-none-any.whl.metadata (1.5 kB)
+Requirement already satisfied: langchain-text-splitters<1.0.0,>=0.3.8 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain<1.0.0,>=0.3.23->langchain-community) (0.3.8)
+Requirement already satisfied: pydantic<3.0.0,>=2.7.4 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain<1.0.0,>=0.3.23->langchain-community) (2.11.3)
+Requirement already satisfied: jsonpatch<2.0,>=1.33 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langchain-core<1.0.0,>=0.3.51->langchain-community) (1.33)
+Requirement already satisfied: packaging<25,>=23.2 in /home/codespace/.local/lib/python3.12/site-packages (from langchain-core<1.0.0,>=0.3.51->langchain-community) (24.2)
+Requirement already satisfied: typing-extensions>=4.7 in /home/codespace/.local/lib/python3.12/site-packages (from langchain-core<1.0.0,>=0.3.51->langchain-community) (4.12.2)
+Requirement already satisfied: httpx<1,>=0.23.0 in /home/codespace/.local/lib/python3.12/site-packages (from langsmith<0.4,>=0.1.125->langchain-community) (0.28.1)
+Requirement already satisfied: orjson<4.0.0,>=3.9.14 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langsmith<0.4,>=0.1.125->langchain-community) (3.10.16)
+Requirement already satisfied: requests-toolbelt<2.0.0,>=1.0.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langsmith<0.4,>=0.1.125->langchain-community) (1.0.0)
+Requirement already satisfied: zstandard<0.24.0,>=0.23.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from langsmith<0.4,>=0.1.125->langchain-community) (0.23.0)
+Collecting python-dotenv>=0.21.0 (from pydantic-settings<3.0.0,>=2.4.0->langchain-community)
+  Downloading python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain-community) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain-community) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain-community) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain-community) (2025.1.31)
+Requirement already satisfied: greenlet>=1 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from SQLAlchemy<3,>=1.4->langchain-community) (3.1.1)
+Requirement already satisfied: anyio in /home/codespace/.local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->langsmith<0.4,>=0.1.125->langchain-community) (4.9.0)
+Requirement already satisfied: httpcore==1.* in /home/codespace/.local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->langsmith<0.4,>=0.1.125->langchain-community) (1.0.7)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/codespace/.local/lib/python3.12/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->langsmith<0.4,>=0.1.125->langchain-community) (0.14.0)
+Requirement already satisfied: jsonpointer>=1.9 in /home/codespace/.local/lib/python3.12/site-packages (from jsonpatch<2.0,>=1.33->langchain-core<1.0.0,>=0.3.51->langchain-community) (3.0.0)
+Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from pydantic<3.0.0,>=2.7.4->langchain<1.0.0,>=0.3.23->langchain-community) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.1 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from pydantic<3.0.0,>=2.7.4->langchain<1.0.0,>=0.3.23->langchain-community) (2.33.1)
+Requirement already satisfied: typing-inspection>=0.4.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from pydantic<3.0.0,>=2.7.4->langchain<1.0.0,>=0.3.23->langchain-community) (0.4.0)
+Collecting mypy-extensions>=0.3.0 (from typing-inspect<1,>=0.4.0->dataclasses-json<0.7,>=0.5.7->langchain-community)
+  Downloading mypy_extensions-1.0.0-py3-none-any.whl.metadata (1.1 kB)
+Requirement already satisfied: sniffio>=1.1 in /home/codespace/.local/lib/python3.12/site-packages (from anyio->httpx<1,>=0.23.0->langsmith<0.4,>=0.1.125->langchain-community) (1.3.1)
+Downloading langchain_community-0.3.21-py3-none-any.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 55.2 MB/s eta 0:00:00
+Downloading aiohttp-3.11.16-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 65.0 MB/s eta 0:00:00
+Downloading dataclasses_json-0.6.7-py3-none-any.whl (28 kB)
+Downloading httpx_sse-0.4.0-py3-none-any.whl (7.8 kB)
+Downloading pydantic_settings-2.8.1-py3-none-any.whl (30 kB)
+Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+Downloading frozenlist-1.5.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (283 kB)
+Downloading marshmallow-3.26.1-py3-none-any.whl (50 kB)
+Downloading multidict-6.4.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (223 kB)
+Downloading propcache-0.3.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (245 kB)
+Downloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)
+Downloading typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Downloading yarl-1.19.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (349 kB)
+Downloading mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: python-dotenv, propcache, mypy-extensions, multidict, marshmallow, httpx-sse, frozenlist, aiohappyeyeballs, yarl, typing-inspect, aiosignal, pydantic-settings, dataclasses-json, aiohttp, langchain-community
+Successfully installed aiohappyeyeballs-2.6.1 aiohttp-3.11.16 aiosignal-1.3.2 dataclasses-json-0.6.7 frozenlist-1.5.0 httpx-sse-0.4.0 langchain-community-0.3.21 marshmallow-3.26.1 multidict-6.4.3 mypy-extensions-1.0.0 propcache-0.3.1 pydantic-settings-2.8.1 python-dotenv-1.1.0 typing-inspect-0.9.0 yarl-1.19.0
+@werruww ➜ /workspaces/labs (main) $ /home/codespace/.python/current/bin/python /workspaces/labs/ragchatbot/app.py
+/workspaces/labs/ragchatbot/app.py:6: LangChainDeprecationWarning: Importing PyPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.document_loaders import PyPDFLoader
+2025-04-11 19:17:56.483 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /workspaces/labs/ragchatbot/app.py [ARGUMENTS]
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.487 Session state does not function when running a script without `streamlit run`
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-04-11 19:17:56.488 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+@werruww ➜ /workspaces/labs (main) $ streamlit run app.py
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: app.py
+@werruww ➜ /workspaces/labs (main) $ cd /workspaces/labs/ragchatbot
+@werruww ➜ /workspaces/labs/ragchatbot (main) $ streamlit run app.py
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.14.224:8501
+  External URL: http://20.61.127.62:8501
+
+/workspaces/labs/ragchatbot/app.py:6: LangChainDeprecationWarning: Importing PyPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.document_loaders import PyPDFLoader
+2025-04-11 19:19:56.848 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+/workspaces/labs/ragchatbot/app.py:6: LangChainDeprecationWarning: Importing PyPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.document_loaders import PyPDFLoader
+modules.json: 100%|██████████████████████████████████████████| 349/349 [00:00<00:00, 2.37MB/s]
+config_sentence_transformers.json: 100%|██████████████████████| 116/116 [00:00<00:00, 771kB/s]
+README.md: 100%|█████████████████████████████████████████| 10.5k/10.5k [00:00<00:00, 54.3MB/s]
+sentence_bert_config.json: 100%|████████████████████████████| 53.0/53.0 [00:00<00:00, 388kB/s]
+config.json: 100%|███████████████████████████████████████████| 612/612 [00:00<00:00, 4.43MB/s]
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+model.safetensors: 100%|█████████████████████████████████| 90.9M/90.9M [00:02<00:00, 34.0MB/s]
+tokenizer_config.json: 100%|█████████████████████████████████| 350/350 [00:00<00:00, 2.54MB/s]
+vocab.txt: 100%|████████████████████████████████████████████| 232k/232k [00:00<00:00, 730kB/s]
+tokenizer.json: 100%|██████████████████████████████████████| 466k/466k [00:00<00:00, 2.41MB/s]
+special_tokens_map.json: 100%|████████████████████████████████| 112/112 [00:00<00:00, 839kB/s]
+config.json: 100%|███████████████████████████████████████████| 190/190 [00:00<00:00, 1.41MB/s]
+2025-04-11 19:20:27.067 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+/workspaces/labs/ragchatbot/app.py:6: LangChainDeprecationWarning: Importing PyPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.document_loaders import PyPDFLoader
+/workspaces/labs/ragchatbot/app.py:6: LangChainDeprecationWarning: Importing PyPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.document_loaders import PyPDFLoader
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@werruww ➜ /workspaces/labs (main) $ curl -fsSL https://ollama.com/install.sh | sh
+>>> Installing ollama to /usr/local
+>>> Downloading Linux amd64 bundle
+######################################################################## 100.0%
+>>> Creating ollama user...
+>>> Adding ollama user to video group...
+>>> Adding current user to ollama group...
+>>> Creating ollama systemd service...
+WARNING: systemd is not running
+WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.
+>>> The Ollama API is now available at 127.0.0.1:11434.
+>>> Install complete. Run "ollama" from the command line.
+@werruww ➜ /workspaces/labs (main) $ pip install pypdf langchain sentence-transformers faiss-cpu ollama
+Collecting pypdf
+  Downloading pypdf-5.4.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting langchain
+  Downloading langchain-0.3.23-py3-none-any.whl.metadata (7.8 kB)
+Collecting sentence-transformers
+  Downloading sentence_transformers-4.0.2-py3-none-any.whl.metadata (13 kB)
+Collecting faiss-cpu
+  Downloading faiss_cpu-1.10.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (4.4 kB)
+Collecting ollama
+  Downloading ollama-0.4.7-py3-none-any.whl.metadata (4.7 kB)
+Collecting langchain-core<1.0.0,>=0.3.51 (from langchain)
+  Downloading langchain_core-0.3.51-py3-none-any.whl.metadata (5.9 kB)
+Collecting langchain-text-splitters<1.0.0,>=0.3.8 (from langchain)
+  Downloading langchain_text_splitters-0.3.8-py3-none-any.whl.metadata (1.9 kB)
+Collecting langsmith<0.4,>=0.1.17 (from langchain)
+  Downloading langsmith-0.3.30-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic<3.0.0,>=2.7.4 (from langchain)
+  Downloading pydantic-2.11.3-py3-none-any.whl.metadata (65 kB)
+Collecting SQLAlchemy<3,>=1.4 (from langchain)
+  Downloading sqlalchemy-2.0.40-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+Requirement already satisfied: requests<3,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from langchain) (2.32.3)
+Requirement already satisfied: PyYAML>=5.3 in /home/codespace/.local/lib/python3.12/site-packages (from langchain) (6.0.2)
+Collecting transformers<5.0.0,>=4.41.0 (from sentence-transformers)
+  Downloading transformers-4.51.2-py3-none-any.whl.metadata (38 kB)
+Collecting tqdm (from sentence-transformers)
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Requirement already satisfied: torch>=1.11.0 in /home/codespace/.local/lib/python3.12/site-packages (from sentence-transformers) (2.6.0+cpu)
+Requirement already satisfied: scikit-learn in /home/codespace/.local/lib/python3.12/site-packages (from sentence-transformers) (1.6.1)
+Requirement already satisfied: scipy in /home/codespace/.local/lib/python3.12/site-packages (from sentence-transformers) (1.15.2)
+Collecting huggingface-hub>=0.20.0 (from sentence-transformers)
+  Downloading huggingface_hub-0.30.2-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: Pillow in /home/codespace/.local/lib/python3.12/site-packages (from sentence-transformers) (11.1.0)
+Requirement already satisfied: typing_extensions>=4.5.0 in /home/codespace/.local/lib/python3.12/site-packages (from sentence-transformers) (4.12.2)
+Requirement already satisfied: numpy<3.0,>=1.25.0 in /home/codespace/.local/lib/python3.12/site-packages (from faiss-cpu) (2.2.4)
+Requirement already satisfied: packaging in /home/codespace/.local/lib/python3.12/site-packages (from faiss-cpu) (24.2)
+Requirement already satisfied: httpx<0.29,>=0.27 in /home/codespace/.local/lib/python3.12/site-packages (from ollama) (0.28.1)
+Requirement already satisfied: anyio in /home/codespace/.local/lib/python3.12/site-packages (from httpx<0.29,>=0.27->ollama) (4.9.0)
+Requirement already satisfied: certifi in /home/codespace/.local/lib/python3.12/site-packages (from httpx<0.29,>=0.27->ollama) (2025.1.31)
+Requirement already satisfied: httpcore==1.* in /home/codespace/.local/lib/python3.12/site-packages (from httpx<0.29,>=0.27->ollama) (1.0.7)
+Requirement already satisfied: idna in /home/codespace/.local/lib/python3.12/site-packages (from httpx<0.29,>=0.27->ollama) (3.10)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/codespace/.local/lib/python3.12/site-packages (from httpcore==1.*->httpx<0.29,>=0.27->ollama) (0.14.0)
+Requirement already satisfied: filelock in /home/codespace/.local/lib/python3.12/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (3.13.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/codespace/.local/lib/python3.12/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (2024.6.1)
+Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0 (from langchain-core<1.0.0,>=0.3.51->langchain)
+  Downloading tenacity-9.1.2-py3-none-any.whl.metadata (1.2 kB)
+Collecting jsonpatch<2.0,>=1.33 (from langchain-core<1.0.0,>=0.3.51->langchain)
+  Downloading jsonpatch-1.33-py2.py3-none-any.whl.metadata (3.0 kB)
+Collecting orjson<4.0.0,>=3.9.14 (from langsmith<0.4,>=0.1.17->langchain)
+  Downloading orjson-3.10.16-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (41 kB)
+Collecting requests-toolbelt<2.0.0,>=1.0.0 (from langsmith<0.4,>=0.1.17->langchain)
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting zstandard<0.24.0,>=0.23.0 (from langsmith<0.4,>=0.1.17->langchain)
+  Downloading zstandard-0.23.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.1 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Downloading pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Downloading typing_inspection-0.4.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain) (3.4.1)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests<3,>=2->langchain) (2.3.0)
+Collecting greenlet>=1 (from SQLAlchemy<3,>=1.4->langchain)
+  Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Requirement already satisfied: networkx in /home/codespace/.local/lib/python3.12/site-packages (from torch>=1.11.0->sentence-transformers) (3.3)
+Requirement already satisfied: jinja2 in /home/codespace/.local/lib/python3.12/site-packages (from torch>=1.11.0->sentence-transformers) (3.1.6)
+Requirement already satisfied: setuptools in /home/codespace/.local/lib/python3.12/site-packages (from torch>=1.11.0->sentence-transformers) (76.0.0)
+Requirement already satisfied: sympy==1.13.1 in /home/codespace/.local/lib/python3.12/site-packages (from torch>=1.11.0->sentence-transformers) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/codespace/.local/lib/python3.12/site-packages (from sympy==1.13.1->torch>=1.11.0->sentence-transformers) (1.3.0)
+Collecting regex!=2019.12.17 (from transformers<5.0.0,>=4.41.0->sentence-transformers)
+  Downloading regex-2024.11.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (40 kB)
+Collecting tokenizers<0.22,>=0.21 (from transformers<5.0.0,>=4.41.0->sentence-transformers)
+  Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting safetensors>=0.4.3 (from transformers<5.0.0,>=4.41.0->sentence-transformers)
+  Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Requirement already satisfied: joblib>=1.2.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-learn->sentence-transformers) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-learn->sentence-transformers) (3.6.0)
+Requirement already satisfied: jsonpointer>=1.9 in /home/codespace/.local/lib/python3.12/site-packages (from jsonpatch<2.0,>=1.33->langchain-core<1.0.0,>=0.3.51->langchain) (3.0.0)
+Requirement already satisfied: sniffio>=1.1 in /home/codespace/.local/lib/python3.12/site-packages (from anyio->httpx<0.29,>=0.27->ollama) (1.3.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/codespace/.local/lib/python3.12/site-packages (from jinja2->torch>=1.11.0->sentence-transformers) (3.0.2)
+Downloading pypdf-5.4.0-py3-none-any.whl (302 kB)
+Downloading langchain-0.3.23-py3-none-any.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 48.9 MB/s eta 0:00:00
+Downloading sentence_transformers-4.0.2-py3-none-any.whl (340 kB)
+Downloading faiss_cpu-1.10.0-cp312-cp312-manylinux_2_28_x86_64.whl (30.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 30.7/30.7 MB 63.0 MB/s eta 0:00:00
+Downloading ollama-0.4.7-py3-none-any.whl (13 kB)
+Downloading huggingface_hub-0.30.2-py3-none-any.whl (481 kB)
+Downloading langchain_core-0.3.51-py3-none-any.whl (423 kB)
+Downloading langchain_text_splitters-0.3.8-py3-none-any.whl (32 kB)
+Downloading langsmith-0.3.30-py3-none-any.whl (358 kB)
+Downloading pydantic-2.11.3-py3-none-any.whl (443 kB)
+Downloading pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 72.7 MB/s eta 0:00:00
+Downloading sqlalchemy-2.0.40-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 51.5 MB/s eta 0:00:00
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading transformers-4.51.2-py3-none-any.whl (10.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 65.0 MB/s eta 0:00:00
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (613 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 613.1/613.1 kB 35.7 MB/s eta 0:00:00
+Downloading jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Downloading orjson-3.10.16-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (133 kB)
+Downloading regex-2024.11.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (796 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 796.9/796.9 kB 42.2 MB/s eta 0:00:00
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (471 kB)
+Downloading tenacity-9.1.2-py3-none-any.whl (28 kB)
+Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 97.2 MB/s eta 0:00:00
+Downloading typing_inspection-0.4.0-py3-none-any.whl (14 kB)
+Downloading zstandard-0.23.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 69.3 MB/s eta 0:00:00
+Installing collected packages: zstandard, typing-inspection, tqdm, tenacity, safetensors, regex, pypdf, pydantic-core, orjson, jsonpatch, greenlet, faiss-cpu, annotated-types, SQLAlchemy, requests-toolbelt, pydantic, huggingface-hub, tokenizers, ollama, langsmith, transformers, langchain-core, sentence-transformers, langchain-text-splitters, langchain
+Successfully installed SQLAlchemy-2.0.40 annotated-types-0.7.0 faiss-cpu-1.10.0 greenlet-3.1.1 huggingface-hub-0.30.2 jsonpatch-1.33 langchain-0.3.23 langchain-core-0.3.51 langchain-text-splitters-0.3.8 langsmith-0.3.30 ollama-0.4.7 orjson-3.10.16 pydantic-2.11.3 pydantic-core-2.33.1 pypdf-5.4.0 regex-2024.11.6 requests-toolbelt-1.0.0 safetensors-0.5.3 sentence-transformers-4.0.2 tenacity-9.1.2 tokenizers-0.21.1 tqdm-4.67.1 transformers-4.51.2 typing-inspection-0.4.0 zstandard-0.23.0
+@werruww ➜ /workspaces/labs (main) $ ollama serve
+Couldn't find '/home/codespace/.ollama/id_ed25519'. Generating new private key.
+Your new public key is: 
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMMrMti+dB2GmjrNHLNWsupBUs/Ux9NpiF5m4zQQqqk2
+
+2025/04/11 19:13:25 routes.go:1231: INFO server config env="map[CUDA_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:2048 OLLAMA_DEBUG:false OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/home/codespace/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:0 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+time=2025-04-11T19:13:25.958Z level=INFO source=images.go:458 msg="total blobs: 0"
+time=2025-04-11T19:13:25.958Z level=INFO source=images.go:465 msg="total unused blobs removed: 0"
+time=2025-04-11T19:13:25.959Z level=INFO source=routes.go:1298 msg="Listening on 127.0.0.1:11434 (version 0.6.5)"
+time=2025-04-11T19:13:25.959Z level=INFO source=gpu.go:217 msg="looking for compatible GPUs"
+time=2025-04-11T19:13:26.009Z level=INFO source=gpu.go:377 msg="no compatible GPUs were discovered"
+time=2025-04-11T19:13:26.009Z level=INFO source=types.go:130 msg="inference compute" id=0 library=cpu variant="" compute="" driver=0.0 name="" total="7.8 GiB" available="6.2 GiB"
+[GIN] 2025/04/11 - 19:14:02 | 200 |    1.077201ms |       127.0.0.1 | HEAD     "/"
+time=2025-04-11T19:14:03.136Z level=INFO source=download.go:177 msg="downloading aabd4debf0c8 in 12 100 MB part(s)"
+time=2025-04-11T19:14:14.476Z level=INFO source=download.go:177 msg="downloading 369ca498f347 in 1 387 B part(s)"
+time=2025-04-11T19:14:15.773Z level=INFO source=download.go:177 msg="downloading 6e4c38e1172f in 1 1.1 KB part(s)"
+time=2025-04-11T19:14:17.098Z level=INFO source=download.go:177 msg="downloading f4d24e9138dd in 1 148 B part(s)"
+time=2025-04-11T19:14:18.461Z level=INFO source=download.go:177 msg="downloading a85fe2a2e58e in 1 487 B part(s)"
+[GIN] 2025/04/11 - 19:14:20 | 200 |  18.33944736s |       127.0.0.1 | POST     "/api/pull"
+[GIN] 2025/04/11 - 19:14:29 | 200 |      24.664µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/04/11 - 19:14:29 | 200 |     432.015µs |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2025/04/11 - 19:14:41 | 200 |      28.399µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/04/11 - 19:14:41 | 200 |   34.354739ms |       127.0.0.1 | POST     "/api/show"
+time=2025-04-11T19:14:41.571Z level=INFO source=server.go:105 msg="system memory" total="7.8 GiB" free="6.1 GiB" free_swap="0 B"
+time=2025-04-11T19:14:41.571Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-04-11T19:14:41.571Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-04-11T19:14:41.571Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-04-11T19:14:41.571Z level=INFO source=server.go:138 msg=offload library=cpu layers.requested=-1 layers.model=29 layers.offload=0 layers.split="" memory.available="[6.1 GiB]" memory.gpu_overhead="0 B" memory.required.full="1.5 GiB" memory.required.partial="0 B" memory.required.kv="224.0 MiB" memory.required.allocations="[1.5 GiB]" memory.weights.total="934.7 MiB" memory.weights.repeating="752.1 MiB" memory.weights.nonrepeating="182.6 MiB" memory.graph.full="299.8 MiB" memory.graph.partial="482.3 MiB"
+llama_model_loader: loaded meta data with 26 key-value pairs and 339 tensors from /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = DeepSeek R1 Distill Qwen 1.5B
+llama_model_loader: - kv   3:                           general.basename str              = DeepSeek-R1-Distill-Qwen
+llama_model_loader: - kv   4:                         general.size_label str              = 1.5B
+llama_model_loader: - kv   5:                          qwen2.block_count u32              = 28
+llama_model_loader: - kv   6:                       qwen2.context_length u32              = 131072
+llama_model_loader: - kv   7:                     qwen2.embedding_length u32              = 1536
+llama_model_loader: - kv   8:                  qwen2.feed_forward_length u32              = 8960
+llama_model_loader: - kv   9:                 qwen2.attention.head_count u32              = 12
+llama_model_loader: - kv  10:              qwen2.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  11:                       qwen2.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  12:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  13:                          general.file_type u32              = 15
+llama_model_loader: - kv  14:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  15:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  16:                      tokenizer.ggml.tokens arr[str,151936]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,151936]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  18:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  19:                tokenizer.ggml.bos_token_id u32              = 151646
+llama_model_loader: - kv  20:                tokenizer.ggml.eos_token_id u32              = 151643
+llama_model_loader: - kv  21:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  22:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  23:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  24:                    tokenizer.chat_template str              = {% if not add_generation_prompt is de...
+llama_model_loader: - kv  25:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  141 tensors
+llama_model_loader: - type q4_K:  169 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 1.04 GiB (5.00 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: model type       = ?B
+print_info: model params     = 1.78 B
+print_info: general.name     = DeepSeek R1 Distill Qwen 1.5B
+print_info: vocab type       = BPE
+print_info: n_vocab          = 151936
+print_info: n_merges         = 151387
+print_info: BOS token        = 151646 '<｜begin▁of▁sentence｜>'
+print_info: EOS token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOT token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: PAD token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2025-04-11T19:14:41.798Z level=INFO source=server.go:405 msg="starting llama server" cmd="/usr/local/bin/ollama runner --model /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc --ctx-size 8192 --batch-size 512 --threads 1 --no-mmap --parallel 4 --port 39667"
+time=2025-04-11T19:14:41.798Z level=INFO source=sched.go:451 msg="loaded runners" count=1
+time=2025-04-11T19:14:41.798Z level=INFO source=server.go:580 msg="waiting for llama runner to start responding"
+time=2025-04-11T19:14:41.799Z level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server error"
+time=2025-04-11T19:14:41.814Z level=INFO source=runner.go:853 msg="starting go runner"
+load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-icelake.so
+time=2025-04-11T19:14:41.836Z level=INFO source=ggml.go:109 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.AVX512=1 CPU.0.AVX512_VBMI=1 CPU.0.AVX512_VNNI=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 compiler=cgo(gcc)
+time=2025-04-11T19:14:41.837Z level=INFO source=runner.go:913 msg="Server listening on 127.0.0.1:39667"
+llama_model_loader: loaded meta data with 26 key-value pairs and 339 tensors from /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = DeepSeek R1 Distill Qwen 1.5B
+llama_model_loader: - kv   3:                           general.basename str              = DeepSeek-R1-Distill-Qwen
+llama_model_loader: - kv   4:                         general.size_label str              = 1.5B
+llama_model_loader: - kv   5:                          qwen2.block_count u32              = 28
+llama_model_loader: - kv   6:                       qwen2.context_length u32              = 131072
+llama_model_loader: - kv   7:                     qwen2.embedding_length u32              = 1536
+llama_model_loader: - kv   8:                  qwen2.feed_forward_length u32              = 8960
+llama_model_loader: - kv   9:                 qwen2.attention.head_count u32              = 12
+llama_model_loader: - kv  10:              qwen2.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  11:                       qwen2.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  12:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  13:                          general.file_type u32              = 15
+llama_model_loader: - kv  14:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  15:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  16:                      tokenizer.ggml.tokens arr[str,151936]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,151936]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  18:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  19:                tokenizer.ggml.bos_token_id u32              = 151646
+llama_model_loader: - kv  20:                tokenizer.ggml.eos_token_id u32              = 151643
+llama_model_loader: - kv  21:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  22:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  23:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  24:                    tokenizer.chat_template str              = {% if not add_generation_prompt is de...
+llama_model_loader: - kv  25:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  141 tensors
+llama_model_loader: - type q4_K:  169 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 1.04 GiB (5.00 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 22
+time=2025-04-11T19:14:42.050Z level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server loading model"
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 131072
+print_info: n_embd           = 1536
+print_info: n_layer          = 28
+print_info: n_head           = 12
+print_info: n_head_kv        = 2
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 6
+print_info: n_embd_k_gqa     = 256
+print_info: n_embd_v_gqa     = 256
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: n_ff             = 8960
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = 0
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 10000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 131072
+print_info: rope_finetuned   = unknown
+print_info: ssm_d_conv       = 0
+print_info: ssm_d_inner      = 0
+print_info: ssm_d_state      = 0
+print_info: ssm_dt_rank      = 0
+print_info: ssm_dt_b_c_rms   = 0
+print_info: model type       = 1.5B
+print_info: model params     = 1.78 B
+print_info: general.name     = DeepSeek R1 Distill Qwen 1.5B
+print_info: vocab type       = BPE
+print_info: n_vocab          = 151936
+print_info: n_merges         = 151387
+print_info: BOS token        = 151646 '<｜begin▁of▁sentence｜>'
+print_info: EOS token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOT token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: PAD token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = false)
+load_tensors:          CPU model buffer size =  1059.89 MiB
+llama_init_from_model: n_seq_max     = 4
+llama_init_from_model: n_ctx         = 8192
+llama_init_from_model: n_ctx_per_seq = 2048
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 0
+llama_init_from_model: freq_base     = 10000.0
+llama_init_from_model: freq_scale    = 1
+llama_init_from_model: n_ctx_per_seq (2048) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+llama_kv_cache_init: kv_size = 8192, offload = 1, type_k = 'f16', type_v = 'f16', n_layer = 28, can_shift = 1
+llama_kv_cache_init:        CPU KV buffer size =   224.00 MiB
+llama_init_from_model: KV self size  =  224.00 MiB, K (f16):  112.00 MiB, V (f16):  112.00 MiB
+llama_init_from_model:        CPU  output buffer size =     2.34 MiB
+llama_init_from_model:        CPU compute buffer size =   302.75 MiB
+llama_init_from_model: graph nodes  = 986
+llama_init_from_model: graph splits = 1
+time=2025-04-11T19:14:43.307Z level=INFO source=server.go:619 msg="llama runner started in 1.51 seconds"
+[GIN] 2025/04/11 - 19:14:43 | 200 |  1.781799514s |       127.0.0.1 | POST     "/api/generate"
+[GIN] 2025/04/11 - 19:14:47 | 200 |  2.137789834s |       127.0.0.1 | POST     "/api/chat"
+@werruww ➜ /workspaces/labs (main) $ ollama serve
+2025/04/11 19:15:17 routes.go:1231: INFO server config env="map[CUDA_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:2048 OLLAMA_DEBUG:false OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/home/codespace/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:0 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+time=2025-04-11T19:15:17.373Z level=INFO source=images.go:458 msg="total blobs: 5"
+time=2025-04-11T19:15:17.373Z level=INFO source=images.go:465 msg="total unused blobs removed: 0"
+time=2025-04-11T19:15:17.373Z level=INFO source=routes.go:1298 msg="Listening on 127.0.0.1:11434 (version 0.6.5)"
+time=2025-04-11T19:15:17.373Z level=INFO source=gpu.go:217 msg="looking for compatible GPUs"
+time=2025-04-11T19:15:17.380Z level=INFO source=gpu.go:377 msg="no compatible GPUs were discovered"
+time=2025-04-11T19:15:17.380Z level=INFO source=types.go:130 msg="inference compute" id=0 library=cpu variant="" compute="" driver=0.0 name="" total="7.8 GiB" available="6.1 GiB"
+[GIN] 2025/04/11 - 19:15:26 | 200 |      58.067µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/04/11 - 19:15:26 | 200 |      350.86µs |       127.0.0.1 | GET      "/api/tags"
+time=2025-04-11T19:21:11.159Z level=WARN source=types.go:524 msg="invalid option provided" option=max_tokens
+time=2025-04-11T19:21:11.189Z level=INFO source=server.go:105 msg="system memory" total="7.8 GiB" free="4.3 GiB" free_swap="0 B"
+time=2025-04-11T19:21:11.189Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-04-11T19:21:11.189Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-04-11T19:21:11.189Z level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-04-11T19:21:11.189Z level=INFO source=server.go:138 msg=offload library=cpu layers.requested=-1 layers.model=29 layers.offload=0 layers.split="" memory.available="[4.3 GiB]" memory.gpu_overhead="0 B" memory.required.full="1.5 GiB" memory.required.partial="0 B" memory.required.kv="224.0 MiB" memory.required.allocations="[1.5 GiB]" memory.weights.total="934.7 MiB" memory.weights.repeating="752.1 MiB" memory.weights.nonrepeating="182.6 MiB" memory.graph.full="299.8 MiB" memory.graph.partial="482.3 MiB"
+llama_model_loader: loaded meta data with 26 key-value pairs and 339 tensors from /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = DeepSeek R1 Distill Qwen 1.5B
+llama_model_loader: - kv   3:                           general.basename str              = DeepSeek-R1-Distill-Qwen
+llama_model_loader: - kv   4:                         general.size_label str              = 1.5B
+llama_model_loader: - kv   5:                          qwen2.block_count u32              = 28
+llama_model_loader: - kv   6:                       qwen2.context_length u32              = 131072
+llama_model_loader: - kv   7:                     qwen2.embedding_length u32              = 1536
+llama_model_loader: - kv   8:                  qwen2.feed_forward_length u32              = 8960
+llama_model_loader: - kv   9:                 qwen2.attention.head_count u32              = 12
+llama_model_loader: - kv  10:              qwen2.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  11:                       qwen2.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  12:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  13:                          general.file_type u32              = 15
+llama_model_loader: - kv  14:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  15:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  16:                      tokenizer.ggml.tokens arr[str,151936]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,151936]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  18:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  19:                tokenizer.ggml.bos_token_id u32              = 151646
+llama_model_loader: - kv  20:                tokenizer.ggml.eos_token_id u32              = 151643
+llama_model_loader: - kv  21:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  22:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  23:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  24:                    tokenizer.chat_template str              = {% if not add_generation_prompt is de...
+llama_model_loader: - kv  25:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  141 tensors
+llama_model_loader: - type q4_K:  169 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 1.04 GiB (5.00 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: model type       = ?B
+print_info: model params     = 1.78 B
+print_info: general.name     = DeepSeek R1 Distill Qwen 1.5B
+print_info: vocab type       = BPE
+print_info: n_vocab          = 151936
+print_info: n_merges         = 151387
+print_info: BOS token        = 151646 '<｜begin▁of▁sentence｜>'
+print_info: EOS token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOT token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: PAD token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2025-04-11T19:21:11.395Z level=INFO source=server.go:405 msg="starting llama server" cmd="/usr/local/bin/ollama runner --model /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc --ctx-size 8192 --batch-size 512 --threads 1 --no-mmap --parallel 4 --port 34457"
+time=2025-04-11T19:21:11.395Z level=INFO source=sched.go:451 msg="loaded runners" count=1
+time=2025-04-11T19:21:11.395Z level=INFO source=server.go:580 msg="waiting for llama runner to start responding"
+time=2025-04-11T19:21:11.395Z level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server error"
+time=2025-04-11T19:21:11.406Z level=INFO source=runner.go:853 msg="starting go runner"
+load_backend: loaded CPU backend from /usr/local/lib/ollama/libggml-cpu-icelake.so
+time=2025-04-11T19:21:11.412Z level=INFO source=ggml.go:109 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.AVX512=1 CPU.0.AVX512_VBMI=1 CPU.0.AVX512_VNNI=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 compiler=cgo(gcc)
+time=2025-04-11T19:21:11.412Z level=INFO source=runner.go:913 msg="Server listening on 127.0.0.1:34457"
+llama_model_loader: loaded meta data with 26 key-value pairs and 339 tensors from /home/codespace/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = DeepSeek R1 Distill Qwen 1.5B
+llama_model_loader: - kv   3:                           general.basename str              = DeepSeek-R1-Distill-Qwen
+llama_model_loader: - kv   4:                         general.size_label str              = 1.5B
+llama_model_loader: - kv   5:                          qwen2.block_count u32              = 28
+llama_model_loader: - kv   6:                       qwen2.context_length u32              = 131072
+llama_model_loader: - kv   7:                     qwen2.embedding_length u32              = 1536
+llama_model_loader: - kv   8:                  qwen2.feed_forward_length u32              = 8960
+llama_model_loader: - kv   9:                 qwen2.attention.head_count u32              = 12
+llama_model_loader: - kv  10:              qwen2.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  11:                       qwen2.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  12:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  13:                          general.file_type u32              = 15
+llama_model_loader: - kv  14:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  15:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  16:                      tokenizer.ggml.tokens arr[str,151936]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,151936]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  18:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  19:                tokenizer.ggml.bos_token_id u32              = 151646
+llama_model_loader: - kv  20:                tokenizer.ggml.eos_token_id u32              = 151643
+llama_model_loader: - kv  21:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  22:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  23:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  24:                    tokenizer.chat_template str              = {% if not add_generation_prompt is de...
+llama_model_loader: - kv  25:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  141 tensors
+llama_model_loader: - type q4_K:  169 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 1.04 GiB (5.00 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 131072
+print_info: n_embd           = 1536
+print_info: n_layer          = 28
+print_info: n_head           = 12
+print_info: n_head_kv        = 2
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 6
+print_info: n_embd_k_gqa     = 256
+print_info: n_embd_v_gqa     = 256
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: n_ff             = 8960
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = 0
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 10000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 131072
+print_info: rope_finetuned   = unknown
+print_info: ssm_d_conv       = 0
+print_info: ssm_d_inner      = 0
+print_info: ssm_d_state      = 0
+print_info: ssm_dt_rank      = 0
+print_info: ssm_dt_b_c_rms   = 0
+print_info: model type       = 1.5B
+print_info: model params     = 1.78 B
+print_info: general.name     = DeepSeek R1 Distill Qwen 1.5B
+print_info: vocab type       = BPE
+print_info: n_vocab          = 151936
+print_info: n_merges         = 151387
+print_info: BOS token        = 151646 '<｜begin▁of▁sentence｜>'
+print_info: EOS token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOT token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: PAD token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<｜end▁of▁sentence｜>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = false)
+load_tensors:          CPU model buffer size =  1059.89 MiB
+time=2025-04-11T19:21:11.649Z level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server loading model"
+llama_init_from_model: n_seq_max     = 4
+llama_init_from_model: n_ctx         = 8192
+llama_init_from_model: n_ctx_per_seq = 2048
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 0
+llama_init_from_model: freq_base     = 10000.0
+llama_init_from_model: freq_scale    = 1
+llama_init_from_model: n_ctx_per_seq (2048) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+llama_kv_cache_init: kv_size = 8192, offload = 1, type_k = 'f16', type_v = 'f16', n_layer = 28, can_shift = 1
+llama_kv_cache_init:        CPU KV buffer size =   224.00 MiB
+llama_init_from_model: KV self size  =  224.00 MiB, K (f16):  112.00 MiB, V (f16):  112.00 MiB
+llama_init_from_model:        CPU  output buffer size =     2.34 MiB
+llama_init_from_model:        CPU compute buffer size =   302.75 MiB
+llama_init_from_model: graph nodes  = 986
+llama_init_from_model: graph splits = 1
+time=2025-04-11T19:21:17.179Z level=INFO source=server.go:619 msg="llama runner started in 5.78 seconds"
+[GIN] 2025/04/11 - 19:22:47 | 200 |         1m36s |       127.0.0.1 | POST     "/api/generate"
+
+
+
+
+
+
+
+
+The_Little_Prince_Antoine_de_Saint_Exupery.pdf
+
+
+What is the topic of the book?
+
+
+Answer: <think> Okay, so I need to figure out the topic of the book using the given context. Let me read through the text carefully.
+
+The context starts with a dialogue between an old gentleman and a little prince talking about where they come from and what big book they're reading. Then there are several questions and answers that delve into geography, specifically mentioning places like seas, rivers, cities, mountains, and deserts. The prince mentions being a geographer, which is a key term here.
+
+Looking further down, the book discusses various topics related to geology and planetary features, including interesting facts about planets with unique characteristics. There's also a section where the little prince reflects on his life, emphasizing themes of responsibility and understanding one's surroundings.
+
+The questions at the end ask about why there are no other drawings in the book as grandiose as the drawing of the babs, leading to an answer involving the inability to succeed in drawing something. This part doesn't directly relate to the main topic but adds to the story.
+
+Putting it all together, the central theme seems to be geography and planetary features, focusing on places like seas, rivers, cities, mountains, and deserts. The book delves into these topics through various questions and answers, providing detailed information about different planets and their characteristics. </think>
+
+The topic of the book is geography, specifically exploring the features of planets such as seas, rivers, cities, mountains, and deserts. The book discusses various planetary features and includes detailed information about places like the babs (which are actually babs in a drawing) and other planets with unique characteristics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
